@@ -1,12 +1,26 @@
-h1 {
-    color: #27aedb;
+.menu {
     text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
+    padding: 20px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Distribute content evenly along the main axis */
+    margin-bottom: 20px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-}
+    gap: 20px;
+  }
+  .menu-items .item {
+    flex: 0 0 calc(33.3333% - 40px);
+    max-width: calc(33.3333% - 40px);
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
